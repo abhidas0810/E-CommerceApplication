@@ -9,8 +9,8 @@ public class LoginDTO {
 		return email;
 	}
 
-	public void setEmail(String phone) {
-		this.email = phone;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getPassword() {
