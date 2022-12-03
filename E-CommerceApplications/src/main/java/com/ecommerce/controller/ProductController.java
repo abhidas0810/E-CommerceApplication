@@ -24,6 +24,8 @@ public class ProductController {
 	@Autowired
 	private ProductsService productsService;
 
+	/*--------------------------------------------Product Controller--------------------------- */
+	
 	@PostMapping("/product")
 	public ResponseEntity<Products> addProductHandler(@RequestBody Products product) throws ProductException {
 		Products prod = productsService.addProduct(product);

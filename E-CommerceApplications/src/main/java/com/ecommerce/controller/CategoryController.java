@@ -23,6 +23,8 @@ public class CategoryController {
 
 	@Autowired
 	private CategoryService categoryService;
+	
+	/*--------------------------------------------Category Controller--------------------------- */
 
 	@PostMapping("/category")
 	public ResponseEntity<Category> addCategoryHandler(@RequestBody Category category) throws CategoryException {

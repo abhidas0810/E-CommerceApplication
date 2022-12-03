@@ -23,7 +23,7 @@ public class PaymentController {
 	@Autowired
 	private PaymentsService paymentsService;
 
-	/*--------------------------------------------Feedback Controller--------------------------- */
+	/*--------------------------------------------Payment Controller--------------------------- */
 
 	@PostMapping("/payment/{orderId}/{customerId}")
 	public ResponseEntity<Payments> makePaymentHandler(@RequestBody Payments payment,
